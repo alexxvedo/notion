@@ -20,13 +20,13 @@ If you want to change the installation file type you can do that by changing it 
 the "build/targets" section of package.json
 
 	"build": {
-	  "appId": "Notion",
-	  "linux": {
-		"target": [
-	      "deb"
-		],
-		"category": "Utility"
-	  }
+		"appId": "Notion",
+	  	"linux": {
+			"target": [
+	      		"deb"
+			],
+			"category": "Utility"
+	  	}
   	}
 
 See al target here: https://www.electron.build/configuration/linux#LinuxConfiguration-target
