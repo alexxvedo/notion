@@ -22,11 +22,11 @@ the "build/targets" section of package.json
 	"build": {
     		"appId": "Notion",
     		"linux": {
-		"target": [
-        		"deb"
-      		],
-      		"category": "Utility"
-   		 }
+			"target": [
+        			"deb"
+			],
+      			"category": "Utility"
+	 	}
   	}
 
 See al target here: https://www.electron.build/configuration/linux#LinuxConfiguration-target
