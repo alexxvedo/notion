@@ -7,9 +7,11 @@ REQUISITOS:
 
 PASOS PARA INSTALAR:
 
-	1. npm install --save-dev electron electron-builder
-	2. npm run builer-linux
-	3. cd dist
-	4. sudo dpkh -i <notion.deb>
+	1. git clone https://github.com/alexxvedo/notion.git
+	2. cd notion/
+	3. npm install --save-dev electron electron-builder
+	4. npm run builer-linux
+	5. cd dist
+	6. sudo dpkh -i <notion.deb>
 
 Todo listo! 
