@@ -1,0 +1,30 @@
+{
+  "name": "notion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist-linux": "electron-builder --linux"
+  },
+  "homepage": "www.google.com",
+  "author": "Alex <hola@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "electron-packager": "^17.1.1"
+  },
+  "devDependencies": {
+    "electron": "^21.2.3",
+    "electron-builder": "^23.6.0"
+  },
+  "build": {
+    "appId": "Notion",
+    "linux": {
+      "target": [
+        "deb"
+      ],
+      "category": "Utility"
+    }
+  }
+}
