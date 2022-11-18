@@ -12,7 +12,7 @@ Steps for installation:
 	npm install --save-dev electron electron-builder
 	npm run dist-linux
 	cd dist
-	sudo dpkh -i <notion.deb>
+	sudo dpkg -i <notion.deb>
 
 Done.
 
