@@ -9,7 +9,7 @@
     "dist-linux": "electron-builder --linux"
   },
   "homepage": "www.google.com",
-  "author": "Alex <hola@gmail.com>",
+  "author": "alexxvedo <alejandrovedoprogramacion@gmail.com",
   "license": "ISC",
   "dependencies": {
     "electron-packager": "^17.1.1"
