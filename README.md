@@ -20,12 +20,12 @@ If you want to change the installation file type you can do that by changing it 
 the "build/targets" section of package.json
 
 	"build": {
-    		"appId": "Notion",
-    		"linux": {
+		"appId": "Notion",
+		"linux": {
 			"target": [
-        			"deb"
+				"deb"
 			],
-      			"category": "Utility"
+			"category": "Utility"
 	 	}
   	}
 
