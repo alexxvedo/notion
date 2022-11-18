@@ -1,4 +1,4 @@
-Notion application for linux.
+Notion application for linux using electron.
 
 Requirements:
 
